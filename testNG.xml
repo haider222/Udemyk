@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="suite">
+    <listeners>
+        <listener class-name="screenShotListener"></listener>
+        <listener class-name="ExtentReporterNG"></listener>
+    </listeners>
+    <test name="buildingFrameWork">
+        <classes>
+            <class name="testScenarios.OpenHomePage"></class>
+        </classes>
+
+    </test>
+    <test name="clickonloginbutton">
+        <classes>
+            <class name="testScenarios.clickOnLoginButton"></class>
+        </classes>
+    </test>
+</suite>
